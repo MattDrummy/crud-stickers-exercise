@@ -44,16 +44,16 @@ We'll be using:
 * [x] Make sure the tests are working!
 * [ ] List all records with GET /api/v1/stickers
   * [ ] Create query
-  * [ ] Create route
+  * [x] Create route
 * [ ] Show one record with GET /api/v1/stickers/:id
   * [ ] Create query
-  * [ ] Create route
+  * [x] Create route
 * [ ] Create a record with POST /api/v1/stickers
-  * [ ] Create route
+  * [x] Create route
   * [ ] Create query
 * [ ] Update a record with PUT /api/v1/stickers/:id
-  * [ ] Create route
+  * [x] Create route
   * [ ] Create query
 * [ ] Delete a record with DELETE /api/v1/stickers/:id
-  * [ ] Create route
+  * [x] Create route
   * [ ] Create query
