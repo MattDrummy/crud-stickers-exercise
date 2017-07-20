@@ -26,5 +26,11 @@ module.exports = {
     });
   },
   delete(id, res) {
+    console.log(id);
+    knex('sticker').where('id', id).del().then((data) => {
+      res.json({
+        deleted: true
+      })
+    })
   }
 }
