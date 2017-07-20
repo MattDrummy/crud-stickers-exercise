@@ -42,15 +42,15 @@ We'll be using:
 * [x] List all records with GET /api/v1/stickers
     * [x] Add test
 * [x] Make sure the tests are working!
-* [ ] List all records with GET /api/v1/stickers
-  * [ ] Create query
+* [x] List all records with GET /api/v1/stickers
+  * [x] Create query
   * [x] Create route
-* [ ] Show one record with GET /api/v1/stickers/:id
-  * [ ] Create query
+* [x] Show one record with GET /api/v1/stickers/:id
+  * [x] Create query
   * [x] Create route
-* [ ] Create a record with POST /api/v1/stickers
+* [x] Create a record with POST /api/v1/stickers
   * [x] Create route
-  * [ ] Create query
+  * [x] Create query
 * [ ] Update a record with PUT /api/v1/stickers/:id
   * [x] Create route
   * [ ] Create query

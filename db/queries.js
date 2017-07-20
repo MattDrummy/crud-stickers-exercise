@@ -12,6 +12,11 @@ module.exports = {
     })
   },
   create(sticker, res) {
+    knex('sticker').insert(sticker).then((data) => {
+      knex('sticker').select('*').where(sticker).first().then((data) => {
+        res.json(data);
+      });
+    });
   },
   update(id, sticker, res) {
   },
