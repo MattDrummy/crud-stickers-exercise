@@ -41,7 +41,7 @@ We'll be using:
     * [x] Run migrations/seeds on test db
 * [x] List all records with GET /api/v1/stickers
     * [x] Add test
-* [ ] Make sure the tests are working!
+* [x] Make sure the tests are working!
 * [ ] List all records with GET /api/v1/stickers
   * [ ] Create query
   * [ ] Create route
