@@ -19,6 +19,11 @@ module.exports = {
     });
   },
   update(id, sticker, res) {
+    knex('sticker').where('id', id).update(sticker).then((data) => {
+      knex('sticker').select('*').where(sticker).first().then((data) => {
+        res.json(data);
+      })
+    });
   },
   delete(id, res) {
   }

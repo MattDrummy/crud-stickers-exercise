@@ -13,10 +13,10 @@ router.post('/', (req, res) => {
   queries.create(req.body, res);
 });
 router.put('/:id', (req, res) => {
-  res.send(queries.update(req.params.id, req.body));
+  queries.update(req.params.id, req.body, res);
 });
 router.delete('/:id', (req, res) => {
-  res.send(queries.delete(req.params.id));
+  queries.delete(req.params.id, res);
 });
 
 module.exports = router;
