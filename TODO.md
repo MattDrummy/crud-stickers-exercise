@@ -51,9 +51,9 @@ We'll be using:
 * [x] Create a record with POST /api/v1/stickers
   * [x] Create route
   * [x] Create query
-* [ ] Update a record with PUT /api/v1/stickers/:id
+* [x] Update a record with PUT /api/v1/stickers/:id
   * [x] Create route
-  * [ ] Create query
-* [ ] Delete a record with DELETE /api/v1/stickers/:id
+  * [x] Create query
+* [x] Delete a record with DELETE /api/v1/stickers/:id
   * [x] Create route
-  * [ ] Create query
+  * [x] Create query
