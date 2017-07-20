@@ -1,15 +1,17 @@
 const knex = require('./knex'); // the connection!
 
 module.exports = {
-  getAll() {
-
+  getAll(res) {
+    knex('sticker').select('*').then(function(data) {
+      res.json(data);
+    })
   },
-  getOne(id) {
+  getOne(id, res) {
   },
-  create(sticker) {
+  create(sticker, res) {
   },
-  update(id, sticker) {
+  update(id, sticker, res) {
   },
-  delete(id) {
+  delete(id, res) {
   }
 }
