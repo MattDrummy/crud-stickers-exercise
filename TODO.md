@@ -22,7 +22,7 @@ We'll be using:
 * [x] Create a server folder
   * [x] Generate Express App
   * [x] initialize git repo
-* [ ] Create database
+* [x] Create database
 * [x] Initialize knex project
   * [x] Install knex and pg
   * [x] Create knexfile.js
